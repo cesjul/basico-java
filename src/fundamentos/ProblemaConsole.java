@@ -15,7 +15,7 @@ public class ProblemaConsole {
         System.out.print("Digite seu sexo: ");
         String gender = input.nextLine();
 
-        System.err.printf("Nome: %s, Idade: %d, Sexo: %s", 
+        System.out.printf("Nome: %s, Idade: %d, Sexo: %s", 
                            name, age, gender);
 
         input.close();
