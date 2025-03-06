@@ -16,6 +16,9 @@ public class Wrapper {
 
         System.out.println(b.byteValue());
         System.out.println(i.toString());
-
+        System.out.println(s);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
     }
 }
