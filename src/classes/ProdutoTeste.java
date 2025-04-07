@@ -9,7 +9,9 @@ public class ProdutoTeste {
         p1.name = "Computer";
         p1.price = 400.59;
 
-        System.out.printf("%s is costing %.2f with %.1f off", 
+        System.out.printf("%s is costing %.2f with %.1f off\n", 
                                 p1.name, p1.price, p1.discount * 100);
+                            
+        System.out.println(p1.priceWithDiscount());
     }
 }

@@ -10,5 +10,7 @@ public class DataTeste {
 
         System.out.printf("%d of %s of %d", 
                          data1.day, data1.month, data1.year);
+
+        System.out.println(data1.getMonth());
     }
 }
