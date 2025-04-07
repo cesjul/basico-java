@@ -8,4 +8,10 @@ public class Data {
      String getMonth(){
         return this.month;
     }
+
+    String formateDate(){
+        String formated = "%d/%s/%d".formatted(this.day, this.month, this.year);
+
+        return formated;
+    }
 }
