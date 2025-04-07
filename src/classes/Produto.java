@@ -5,6 +5,14 @@ public class Produto {
     double price;
     double discount;
 
+    Produto(String initialName){
+        this.name = initialName;
+    }
+
+    //default constructor
+    Produto(){ 
+    }
+
     double priceWithDiscount(){
         double discount = this.discount;
         double price = this.price;
