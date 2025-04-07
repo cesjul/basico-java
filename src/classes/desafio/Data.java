@@ -5,7 +5,19 @@ public class Data {
     String month;
     int year;
 
-     String getMonth(){
+    Data(int day, String month, int year){
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    }
+
+    Data(){
+        this.day = 1;
+        this.month = "January";
+        this.year = 1970;
+    }
+
+    String getMonth(){
         return this.month;
     }
 
