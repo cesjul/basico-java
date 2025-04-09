@@ -3,7 +3,7 @@ package classes;
 public class Produto {
     String name;
     double price;
-    double discount;
+    static double discount = 0.25;
 
     Produto(String initialName){
         this.name = initialName;
@@ -14,7 +14,6 @@ public class Produto {
     }
 
     double priceWithDiscount(){
-        double discount = this.discount;
         double price = this.price;
 
         return (price - (price*discount));
