@@ -1,6 +1,5 @@
 package arrays;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matriz {
@@ -15,20 +14,19 @@ public class Matriz {
 
         double[][] classGrades = new double[numberOfStudents][numberOfGrades];
 
-        int i = 0;
-        for (double[] student: classGrades) {
-            int j = 0;
-            for(double grade: student){
+       
+        for (int i = 0; i < numberOfStudents; i++) {
+            
+            for(int j = 0; j < numberOfGrades; j++){
                 System.out.printf("Insert %d grade for %d student: ", 
                                                  j+1,          i+1);
 
                 double sentGrade = consoleIn.nextDouble();
                 classGrades[i][j] = sentGrade;
 
-                j++;
             }
-            i++;
-            if (i < numberOfStudents) {
+            
+            if ((i + 1) < numberOfStudents){
                 System.out.println("Next student...");
             }
         }
