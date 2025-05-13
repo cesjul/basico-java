@@ -11,5 +11,5 @@ public class Hash {
         users.add(new Usuario("Will"));
 
         System.out.println(users.contains(new Usuario("Will")));
-    }
+    } 
 }
