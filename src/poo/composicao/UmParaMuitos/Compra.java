@@ -1,4 +1,4 @@
-package poo.composicao;
+package poo.composicao.UmParaMuitos;
 
 import java.util.ArrayList;
 

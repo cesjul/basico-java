@@ -1,4 +1,4 @@
-package poo.composicao;
+package poo.composicao.UmParaUm;
 
 public class UsandoCarro {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package poo.composicao;
+package poo.composicao.UmParaUm;
 
 public class Motor {
     double acelaration = 1;

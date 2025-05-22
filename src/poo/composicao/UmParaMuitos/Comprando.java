@@ -1,4 +1,4 @@
-package poo.composicao;
+package poo.composicao.UmParaMuitos;
 
 public class Comprando {
     public static void main(String[] args) {

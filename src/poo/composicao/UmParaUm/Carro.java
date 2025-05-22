@@ -1,4 +1,4 @@
-package poo.composicao;
+package poo.composicao.UmParaUm;
 
 public class Carro {
     Motor engine = new Motor();
