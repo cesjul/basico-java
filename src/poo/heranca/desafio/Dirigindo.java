@@ -10,6 +10,8 @@ public class Dirigindo {
 
         porsche.Break();
         porsche.accelerate();
+        porsche.Break();
+        
 
         System.out.println(celta.getSpeed());
         System.out.println(porsche.getSpeed());

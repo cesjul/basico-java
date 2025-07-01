@@ -2,9 +2,19 @@ package poo.heranca.desafio;
 
 public class Carro {
     private int currentSpeed = 0;
+    private final int MAX_SPEED;
+    private int speedRate = 5;
+
+    Carro(int maxSpeed){
+        this.MAX_SPEED = maxSpeed;
+    }
 
     void accelerate(){
-        this.currentSpeed += 5;
+        if ((this.currentSpeed + speedRate) > MAX_SPEED){
+            this.currentSpeed = MAX_SPEED;
+        }else{
+            this.currentSpeed += speedRate;
+        }
     }
 
     void Break(){
