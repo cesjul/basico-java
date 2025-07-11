@@ -1,6 +1,7 @@
 package lambdas;
 
 import java.util.List;
+import java.util.function.BinaryOperator;
 import java.util.ArrayList;
 
 public class Calculando {
@@ -24,6 +25,10 @@ public class Calculando {
         calculating.execute(1, result);
 
         calculating = (x,y) -> x * y;
+
+        BinaryOperator<Double> calc = (x, y) -> x * y;
+
+        calc.apply(2.3, 6.9);
     }
 
     

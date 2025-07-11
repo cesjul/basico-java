@@ -2,6 +2,7 @@ package lambdas;
 
 import java.util.List;
 
+@FunctionalInterface
 public interface Calculo {
     
     double execute(double a, double b);
