@@ -20,7 +20,7 @@ public class Foreach {
 
         list.forEach(item -> recieveItem(item));
 
-         System.out.println("\nMethod Reference: \n");
+        System.out.println("\nMethod Reference: \n");
 
         list.forEach(Foreach::recieveItem);
     }
